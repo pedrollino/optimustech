@@ -1,0 +1,58 @@
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    padding: 1em 0;
+}
+
+.container__logo {
+    display: flex;
+    align-items: center;
+    margin-right: 10em;
+}
+
+.header__titulo {
+    font-size: 18px;
+    font-weight: 500;
+    margin: 0 0.5em;
+}
+
+.container__menu {
+    display: flex;
+    margin: 0 15em 0 1em;
+}
+
+.container__menu a {
+    color: var(--cinza-claro);
+    text-decoration: none;
+    margin-right: 2em;
+}
+
+.container__lista {
+    display: flex;
+    margin: 2;
+}
+
+.container__item {
+    margin: 0 1em;
+}
+
+button {
+    padding: 0.8em 1em;
+    cursor: pointer;
+    border: none;
+    border-radius: 0.5em;
+    font-weight: 500;
+    background: none;
+    color: var(--cinza-claro);
+}
+
+button#signUp {
+    background-color: var(--vermelho);
+    color: var(--branco);
+}

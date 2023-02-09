@@ -1,0 +1,163 @@
+.corpo {
+    text-align: center;
+    margin-top: 10em;
+}
+
+.corpo a {
+    font-size: 14px;
+    font-weight: 500;
+    color: var(--vermelho);
+    text-decoration: none;
+    background-color: rgba(142, 36, 36, 0.05);
+    padding: 4px 16px;
+    border-radius: 16px;
+}
+
+.corpo__titulo {
+    font-weight: 600;
+    font-size: 36px;
+    color: var(--titulo);
+    margin: 0.8em;
+}
+
+.corpo__texto {
+    font-weight: 400;
+    font-size: 20px;
+    color: var(--cinza-claro);
+    margin-bottom: 4em;
+}
+
+.container__vaga {
+    text-align: center;
+}
+
+.container__titulo-vaga  {
+    font-weight: 500;
+    font-size: 20px;
+    color: var(--titulo);
+    margin-bottom: 1.5em;
+}
+
+.container__vaga-tabela {
+    margin: 5em 15em;
+    text-align: left;
+}
+
+.titulo__vaga {
+    font-weight: 500;
+    font-size: 18px;
+    color: var(--titulo);
+}
+
+.info__vagas {
+    font-weight: 500;
+    font-size: 16px;
+    color: var(--cinza-claro);
+    display: flex;
+    margin-top: 2em;
+}
+
+.vaga {
+    margin-top: 2em;
+    border: 1px solid var(--bordas);
+    border-radius: 16px;
+    margin-bottom: 1.5em;
+    padding: 1.5em;
+}
+
+.tempo__vagas {
+    margin-right: 1.5em;
+}
+
+.comentario {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: rgba(196, 25, 25, 0.03);
+    border-radius: 16px;
+    padding: 4em;
+    margin: 2em 7em;
+}
+
+.comentario__subtitulo {
+    font-weight: 600;
+    font-size: 14px;
+    color: var(--vermelho);
+}
+
+.comentario__texto {
+    font-weight: 500;
+    font-size: 36px;
+    color: var(--titulo);
+    margin-top: 0.5em;
+    margin-bottom: 1em;
+}
+
+.comentario__nome {
+    margin: 1em 0;
+    font-weight: 500;
+    font-size: 16px;
+    color: var(--titulo);
+}
+
+.comentario__job {
+    font-weight: 400;
+    font-size: 14px;
+    color: var(--cinza-claro);
+}
+
+.comentario__info {
+    text-align: center;
+}
+
+.rodape{
+    text-align: center;
+    background: var(--footer);
+    padding: 5em;
+}
+
+.rodape__titulo {
+    font-weight: 600;
+    font-size: 36px;
+    color: var(--titulo);
+    margin-bottom: 0.7em;
+}
+
+.rodape__texto {
+    font-weight: 400;
+    font-size: 20px;
+    color: var(--cinza-claro);
+    margin-bottom: 2em;
+}
+
+.email__rodape {
+    background: #FFFFFF;
+    border: 1px solid var(--border-email);
+    border-radius: 8px;
+    padding: 1em;
+    width: 360px;
+    height: 1em;
+    margin: 0 1em 2em 0;
+    box-shadow: 0 1px 2px rgba(16, 24, 40, 0.05);
+}
+
+.botao__cadastro {
+    color: var(--branco);
+    background: var(--vermelho);
+    font-weight: 500;
+    box-shadow: 0px 1px 2px 0px #1018280D;
+    width: 116px;
+    height: 40px;
+}
+
+.cadastro__rodape {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding: 12px 20px;
+}
+
+.direitos__rodape {
+    font-weight: 400;
+    color: var(--direitos);
+}

@@ -1,0 +1,24 @@
+@import url(styles.css/header.css);
+@import url(styles.css/banner.css);
+@import url(styles.css/info.css);
+@import url(styles.css/body.css);
+
+:root {
+    --fonte-principal: "Inter";
+    --branco: #FFFFFF;
+    --cinza-escuro: #3A404E;
+    --cinza-claro: #667085;
+    --vermelho: #8E2424;
+    --titulo: #101828;
+    --bordas: #EAECF0;
+    --footer: #F9FAFB;
+    --border-email: #D0D5DD;
+    --direitos: #98A2B3;
+}
+
+body {
+    width: 100%;
+    height: 100vh;
+    font-family: var(--fonte-principal);
+    font-size: 16px;
+}

@@ -1,0 +1,33 @@
+.info {
+    display: flex;
+}
+
+.container__info {
+    margin: 2em;
+}
+
+.info__first {
+    margin-left: 7em;
+}
+
+.info__last {
+    margin-right: 6em;
+}
+
+.info__numero {
+    color: var(--vermelho);
+    font-weight: 600;
+    font-size: 60px;
+}
+
+.info__titulo {
+    font-size: 18px;
+    font-weight: 500;
+    margin: 1em 0 0.6em 0;
+}
+
+.info__texto {
+    font-weight: 400;
+    color: var(--cinza-claro);
+
+}
